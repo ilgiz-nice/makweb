@@ -1,3 +1,1 @@
-# makweb
-
-Верстка сайта mak-web.ru
+<a href="https://htmlpreview.github.io/?https://github.com/ilgiz-nice/makweb/blob/master/makweb.html">РџСЂРѕСЃРјРѕС‚СЂ</a>

@@ -1,1 +1,1 @@
-<a href="https://htmlpreview.github.io/?https://github.com/ilgiz-nice/makweb/blob/master/makweb.html" target="_blank">Просмотр</a>
+<a href="https://htmlpreview.github.io/?https://github.com/ilgiz-nice/makweb/blob/master/index.html" target="_blank">Просмотр</a>

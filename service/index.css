@@ -177,6 +177,22 @@ div.service div.center {
   -moz-border-radius: 130px;
   position: relative;
 }
+.service .block:nth-child(1) .img {
+  background: url(http://www.24promo.ru/images/stories/webdesign.jpg) no-repeat;
+  background-size: 100%;
+}
+.service .block:nth-child(2) .img {
+  background: url(http://ossature.ru/images/site/right/verstka.jpg) no-repeat;
+  background-size: 100%;
+}
+.service .block:nth-child(3) .img {
+  background: url(http://www.apwai.net/wp-content/uploads/2015/05/seoimage.jpg) no-repeat;
+  background-size: 100%;
+}
+.service .block:nth-child(4) .img {
+  background: url(http://xn----otbqdc.xn--p1ai/image/24.png) no-repeat;
+  background-size: 100%;
+}
 .block:nth-child(2) .img {
   margin-left: 690px;
 }
@@ -188,9 +204,6 @@ div.service div.center {
 }
 .block:nth-child(4) .img .title, .block:nth-child(4) .img .description {
   margin-left: -650px;
-}
-.img img {
-  display: none;
 }
 span.title {
   text-align: left;

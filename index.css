@@ -333,16 +333,25 @@ section.fifth {
   display:inline-block;
   vertical-align:top;
   margin:0 45px;
+  text-align: left;
 }
 /*
-                    SECTION SIXTH - Обратная связь
+                    Обратная связь
 */
-section.sixth {
-
+.feedback input {
+  background-color: #fff;
+  padding: 13px;
+  font-size: 18px;
+  width: 250px;
+  margin-left: 10px;
 }
-/*
-                    SECTION SEVENTH - Карта
-*/
-section.seventh {
-  
+.feedback button {
+  border: 0;
+  padding: 9px 35px;
+  height: 51px;
+  width: 250px;
+  background-color: #d61f39;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
 }

@@ -9,22 +9,20 @@
 </head>
 <body>
 
-    <header>
-        <div class="nav">
-            <h1><a href="http://makweb.rmgroup.pro/">МАК ВЕБ</a></h1>
-            <div class="description">Разработка...</div>
-            <div class="contact">+7 (937) 599-00-50</div>
-            <nav>
-                <div>
-                    <ul>
-                        <li><a href="/service/"><span>Услуги</span></a></li>
-                        <li><a href="/portfolio/"><span>Работы</span></a></li>
-                        <li><a href="/about/"><span>О нас</span></a></li>
-                        <li><a href="/contact/"><span>Контакты</span></a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+    <header class="header">
+        <h1><a href="http://makweb.rmgroup.pro/">МАК ВЕБ</a></h1>
+        <div class="description">Разработка...</div>
+        <div class="contact"><span>+7 (937) 599-00-50</span></div>
+        <nav class="nav">
+            <div>
+                <ul>
+                    <li><a href="/service/"><span>Услуги</span></a></li>
+                    <li><a href="/portfolio/"><span>Работы</span></a></li>
+                    <li><a href="/about/"><span>О нас</span></a></li>
+                    <li><a href="/contact/"><span>Контакты</span></a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <div class="main">
@@ -120,34 +118,9 @@
                 </div>
             </div>
         </section>
-        <section class="fifth">
-            <div class="center">
-                <h2>Наши отзывы</h2>
-                <div class="block">
-                    <p class="title">Сделано качественно</p>
-                    <p class="content">123...</p>
-                    <p class="person">Ильгиз</p>
-                </div>
-                <div class="block">
-                    <p class="title">Сделано качественно</p>
-                    <p class="content">123...</p>
-                    <p class="person">Ильгиз</p>
-                </div>
-                <div class="block">
-                    <p class="title">Сделано качественно</p>
-                    <p class="content">123...</p>
-                    <p class="person">Ильгиз</p>
-                </div>
-                <div class="block">
-                    <p class="title">Сделано качественно</p>
-                    <p class="content">123...</p>
-                    <p class="person">Ильгиз</p>
-                </div>
-            </div>
-        </section>
     </div>
 
-    <footer>
+    <footer class="footer">
         <div class="feedback">
             <div class="center">
                 <h2>Всё ещё вопросы?</h2>
@@ -159,19 +132,14 @@
                 </form>
             </div>
         </div>
-        <div class="map">
-            <a id="firmsonmap_biglink" href="http://maps.2gis.ru/#/?history=project/nabchelny/center/52.390601400505,55.744953174616/zoom/13/state/widget/id/4081916443655141/firms/4081916443655141">Перейти к большой карте</a>
-            <script charset="utf-8" type="text/javascript" src="http://firmsonmap.api.2gis.ru/js/DGWidgetLoader.js"></script>
-            <script charset="utf-8" type="text/javascript">new DGWidgetLoader({"borderColor":"#a3a3a3","width":"100%","height":"300","wid":"dea4437992ae606f33860ccc795efce3","pos":{"lon":"52.390601400505","lat":"55.744953174616","zoom":"13"},"opt":{"ref":"hidden","card":["name","contacts","schedule","payings"],"city":"nabchelny"},"org":[{"id":"4081916443655141"}]});</script>
-        </div>
-        <div class="footer">
+        <div class="refs">
             <a href="http://mak-web.ru/" class="sitename"><img src="">МАК ВЕБ</a>
             <nav class="nav">
                 <ul>
-                    <li><a href="http://www.mak-web.ru/service/"><span>Услуги</span></a></li>
-                    <li><a href="http://www.mak-web.ru/porfolio/"><span>Работы</span></a></li>
-                    <li><a href="http://www.mak-web.ru/about/"><span>О нас</span></a></li>
-                    <li><a href="http://www.mak-web.ru/contact/"><span>Контакты</span></a></li>
+                    <li><a href="/service/"><span>Услуги</span></a></li>
+                    <li><a href="/porfolio/"><span>Работы</span></a></li>
+                    <li><a href="/about/"><span>О нас</span></a></li>
+                    <li><a href="/contact/"><span>Контакты</span></a></li>
                 </ul>
             </nav>
             <nav class="social">
@@ -183,7 +151,8 @@
                 </ul>
             </nav>
         </div>
-        <div class="legal"></div>
+        <div class="legal">
+        </div>
     </footer>
     <script type="text/javascript" src="index.js"></script>
 </body>
